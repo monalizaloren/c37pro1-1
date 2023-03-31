@@ -25,11 +25,13 @@ function draw() {
   if (playerCount === 2) {
     game.update(1);
   }
+/* Programe que...
+Se o playerCount for igual a 2, será adicionado (1) na função update */
+//???
 
-  if (gameState === 1) {
-    game.play();
-  }
-}
+/* Programe que...
+Se o o gameState for igual a 1, acotecerá a função play()*/
+  //???
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
